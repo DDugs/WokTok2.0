@@ -15,7 +15,7 @@ const Navbar = () => {
           <div className="flex items-center gap-8">
             <Link to="/" className="flex items-center gap-2.5 hover:opacity-80 transition-all">
               <div className="size-9 rounded-lg bg-primary/10 flex items-center justify-center">
-                <img src="dist/logo.png"/>
+                <MessageSquare className="w-6 h-6 text-primary" />
               </div>
               <h1 className="text-lg font-bold">WokTok</h1>
             </Link>
