@@ -11,7 +11,7 @@ const NoChatSelected = () => {
               className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center
              justify-center animate-bounce"
             >
-              <img src="dist/logo.png"/>
+              <MessageSquare className="w-6 h-6 text-primary" />
             </div>
           </div>
         </div>
